@@ -1,0 +1,1381 @@
+.containerA{
+    display: grid;
+    background-color:black;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,105px);
+    grid-column-start: auto;
+    grid-column-end: auto;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.containerAA{
+
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5,1fr);
+    box-shadow: 10px 10px 10px rgb(140, 10, 180);
+    background-image: url(reinvently_insights_3.0.gif);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.CA, .DA, .EA, .FA, .GA{
+
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(115, 115, 252) !important;
+    padding: 5px;
+}
+
+
+.boxA{
+    padding: 10px;
+    background-color: transparent;
+    grid-row: 2/4;
+    grid-column: 2/8;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 200;
+    border: 5px solid white;
+}
+.AA{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 50%;
+    height: 50%;
+}
+
+#aA{
+    border-radius: 45px;
+    
+    
+}
+.BA{
+    grid-row: 1/2;
+    grid-column: 4/6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 10px;
+    word-spacing: 150px;
+    text-shadow: 3px 3px 5px #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: moveA 6s normal;
+    animation-delay: 2s;
+    color: white;
+}
+@keyframes moveA{
+    25%{
+        text-shadow: 0 0 30px rgb(93, 85, 87);
+        transform: translateX(-200px);
+    }
+ 
+    50%{
+        text-shadow: 0 0 30px rgb(99, 90, 90);
+        transform: translateY(100px);
+    }
+ 
+    75%{
+        text-shadow: 0 0 30px rgb(105, 95, 95); 
+        transform: translateX(150px);
+    }
+ 
+    100%{
+        text-shadow: 0 0 30px rgb(110, 100, 100);
+      }
+      
+      
+}
+.CA{
+
+    grid-row: 2;
+        grid-column: 8;
+}
+.DA{
+
+    grid-row: 2;
+        grid-column: 9;
+}
+
+.EA{
+
+    grid-row: 2;
+        grid-column: 10;
+}
+.FA{
+
+    grid-row: 2;
+        grid-column: 11;
+}
+.GA{
+
+    grid-row: 2;
+        grid-column: 12;
+        padding-left: 30px;
+}
+.headA{
+
+    color: white;
+    grid-row: 1;
+    grid-column: 4/6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 3px 3px 5px #333;
+    text-decoration: none;
+}
+.refA{
+
+    grid-column: 2/8;
+    grid-row: 5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: navy;
+    background-color: lightblue;
+    height: 150px;
+    border-radius: 20px;
+}
+.AlphaA{
+  font-family: 'Courier New', Courier, monospace; 
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+#abcA{
+    list-style: circle;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+.betaA{
+    font-family: 'Courier New', Courier, monospace; 
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.containerA .CA aa{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.containerA .DA aa{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.containerA .EA aa{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.containerA .FA aa{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.containerA .GA aa{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.CA, .DA, .EA, .FA, .GA{
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(115, 115, 252);
+    transition: transform 0.3s ease-in-out;
+} 
+
+/* grid for  Nav bar */
+.containerB{
+
+    display: grid;
+    background-color: Black;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,105px);
+    grid-column-start: auto;
+    grid-column-end: auto;
+  
+  }
+  /* Grid for Nav bar closes */
+  
+  
+
+  /* font styling */
+  .CB, .DB, .EB, .FB, .GB{
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(115, 115, 252);
+  }
+  /* styling closes */
+  
+  
+  /* grid sizes for nav bar */
+  .CB{
+    
+    grid-row: 4;
+        grid-column: 7;
+  }
+  .DB{
+  
+    grid-row: 4;
+        grid-column: 8/9;
+  }
+  
+  .EB{
+  
+    grid-row: 4;
+        grid-column: 9/10;
+  }
+  .FB{
+  
+    grid-row: 4;
+        grid-column: 10/11;
+  }
+  .GB{
+  
+    grid-row: 4;
+        grid-column: 11/12;
+        padding-left: 30px;
+  }
+  
+  
+  .AB{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    
+  }
+  
+  .CB{
+    
+    grid-row: 2;
+        grid-column: 7;
+  }
+  .DB{
+    
+    grid-row: 2;
+        grid-column: 8/9;
+  }
+  
+  .EB{
+    
+    grid-row: 2;
+        grid-column: 9/10;
+  }
+  .FB{
+    
+    grid-row: 2;
+        grid-column: 10/11;
+  }
+  .GB{
+    
+    grid-row: 2;
+        grid-column: 11/12;
+        padding-left: 30px;
+  }
+  
+  /* grid for nav bar closes */
+  
+  .BB{
+    grid-row: 1/2;
+    grid-column: 4/6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 10px;
+    word-spacing: 150px;
+    text-shadow: 3px 3px 5px #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: move 6s normal;
+    animation-delay: 2s;
+    color: white;
+}
+
+  @keyframes move{
+    25%{
+        text-shadow: 0 0 30px rgb(93, 85, 87);
+        transform: translateX(-100px);
+    }
+ 
+    50%{
+        text-shadow: 0 0 30px rgb(99, 90, 90);
+        transform: translateY(100px);
+    }
+ 
+    75%{
+        text-shadow: 0 0 30px rgb(105, 95, 95); 
+        transform: translateX(150px);
+    }
+ 
+    100%{
+        text-shadow: 0 0 30px rgb(110, 100, 100);
+    }  
+}
+  
+  
+  /* grid container design */
+  .grid-containerB {
+    
+      display: grid;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      padding-left: 100px;
+      padding-right: 100px;
+      background-image: url(blue_energy.gif);
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 5px solid white; 
+      box-shadow: 10px 30px 30px 10px aqua;
+      margin: 0 auto;
+      grid-template-columns: repeat(11, 1fr) ;
+      grid-template-rows: repeat(4, minmax(100px, auto)) ;
+      padding: 10px;
+  
+    }
+    /* grid container closes */
+  
+  
+    /* borders for grids */
+    .oneB{
+      text-align: center;
+      
+      border: 2px solid white;
+      margin: 5px;
+     
+    }
+  
+    .twoB{
+      text-align: center;
+      
+      border: 2px solid white;
+      border-radius: 25px;
+      margin: 5px;
+   
+     
+    }
+  
+    .threeB{
+      text-align: center;
+      
+      border: 2px solid white;
+      border-radius: 25px;
+      margin: 5px;
+     
+    }
+  
+    .fourB{
+      text-align: center;
+      
+      border: 2px solid white;
+      border-radius: 25px;
+      margin: 5px;
+     
+    }
+    /* borders for grids closes */
+  
+  
+  
+    /* Grid sizing and design */
+    .oneB{
+      background-color: transparent;
+      grid-column: 1 / 12;
+      grid-row: 1;
+    }
+  
+    .twoB{
+      background-color: transparent;
+      grid-column: 2 / 6;
+      grid-row: 2;
+    }
+  
+   .threeB{
+    background-color: transparent;
+    grid-column: 7 / 11;
+    grid-row: 2 / 3;
+  
+   }
+  
+   .fourB{
+    
+    background-color: transparent;
+    grid-column: 1 / 12;
+    grid-row: 4;
+  }
+  /* grid sizing and design closes */
+  
+  /* all links are coloured blue */
+  a{
+    color:  rgb(115, 115, 252);
+  }
+  /* all links are coloured blue end */
+   
+  .CB, .DB, .EB, .FB, .GB{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(115, 115, 252);
+    transition: transform 0.3s ease-in-out;
+} 
+
+.container .CB a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .DB a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .EB a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .FB a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .GB a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.CB:hover{
+    transform: scale(1.2);
+}
+
+.DB:hover{
+    transform: scale(1.2);
+}
+
+.EB:hover{
+    transform: scale(1.2);
+}
+
+.FB:hover{
+    transform: scale(1.2);
+}
+
+.GB:hover{
+    transform: scale(1.2);
+}
+
+.containerC{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,105px);
+    background-color: black;
+}
+
+.container2C{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5,1fr);
+    background-image: url(giphy41.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headC{
+    color:  rgb(255, 255, 255);
+    grid-row: 1;
+    grid-column: 3/7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    text-shadow: 3px 3px 5px #333;  
+    text-align: center;
+    padding-top: 50px;
+}
+
+.definitionC{
+    padding: 10px;
+    background-color: rgb(186, 238, 255);
+    grid-row: 2;
+    grid-column: 2/8;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 200;
+    height: fit-content;
+}
+
+.AC{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.BC{
+    grid-row: 1/2;
+    grid-column: 4/6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 10px;
+    word-spacing: 150px;
+    text-shadow: 3px 3px 5px #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: moveC 6s normal;
+    animation-delay: 2s;
+    color: white;
+}
+
+@keyframes moveC{
+    25%{
+        text-shadow: 0 0 30px rgb(93, 85, 87);
+        transform: translateX(-250px);
+    }
+
+    50%{
+        text-shadow: 0 0 30px rgb(99, 90, 90);
+        transform: translateY(100px);
+    }
+
+    75%{
+        text-shadow: 0 0 30px rgb(105, 95, 95); 
+        transform: translateX(150px);
+    }
+
+    100%{
+        text-shadow: 0 0 30px rgb(110, 100, 100);
+    }  
+}
+
+.CC{
+    grid-row: 2;
+    grid-column: 7/8;
+}
+
+.DC{
+    grid-row: 2;
+    grid-column: 8/9;
+}
+
+.EC{
+    grid-row: 2;
+    grid-column: 9/10;
+}
+
+.FC{
+    grid-row: 2;
+    grid-column: 10/11;
+}
+
+.GC{
+    grid-row: 2;
+    grid-column: 11/12;
+}
+
+.CC, .DC, .EC, .FC, .GC{
+    padding-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(115, 115, 252);
+    transition: transform 0.3s ease-in-out;
+} 
+
+.containerC .CC a{
+    color: rgb(115, 115, 252);
+    text-decoration: none;
+}
+
+.containerC .DC a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.containerC .EC a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.containerC .FC a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.containerC .GC a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.CC:hover{
+    transform: scale(1.2);
+}
+
+.DC:hover{
+    transform: scale(1.2);
+}
+
+.EC:hover{
+    transform: scale(1.2);
+}
+
+.FC:hover{
+    transform: scale(1.2);
+}
+
+.GC:hover{
+    transform: scale(1.2);
+}
+
+.refC{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(186, 238, 255);
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: groove;
+    color: black;
+    grid-column: 2/8;
+    grid-row: 6;
+    transition: transform 0.3s ease-in-out;
+}
+
+.refC h3{
+    padding-left: 10px;
+    color: navy;
+}
+
+p{
+    text-align: center;
+}
+
+#oneC{
+    grid-column: 2/4;
+    grid-row: 3;
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: inset;
+    background-color: rgb(186, 238, 255);
+    height: 130px;
+    width: 600px;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+
+#twoC{
+    grid-column: 5/8;
+    grid-row: 3;
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
+    background-color: rgb(186, 238, 255);
+    height: 110px;
+    width: 580px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#threeC{
+    grid-column: 2/4;
+    grid-row: 4;
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: inset;
+    background-color: rgb(186, 238, 255);
+    height: 110px;
+    width: 580px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#fourC{
+    grid-column: 5/8;
+    grid-row: 4;
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
+    background-color: rgb(186, 238, 255);
+    height: 110px;
+    width: 580px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#fiveC{
+    grid-column: 2/4;
+    grid-row: 5;
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: inset;
+    background-color: rgb(186, 238, 255);
+    height: 110px;
+    width: 580px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#sixC{
+    grid-column: 5/8;
+    grid-row: 5;
+    border: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
+    background-color: rgb(186, 238, 255);
+    height: 130px;
+    width: 600px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#oneC:hover{
+    transform: scale(1.2);
+}
+
+#twoC:hover{
+    transform: scale(1.2);
+}
+
+#threeC:hover{
+    transform: scale(1.2);
+}
+
+#fourC:hover{
+    transform: scale(1.2);
+}
+
+#fiveC:hover{
+    transform: scale(1.2);
+}
+
+#sixC:hover{
+    transform: scale(1.2);
+}
+
+.refC:hover{
+    transform:scale(1.2);
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.container2C h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    padding-left: 28px;
+    margin-top: 0px;
+}
+
+#twoC, #threeC, #fourC, #fiveC, #sixC div p{
+    padding: 10px;
+}
+
+.containerJ{
+
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,105px);
+    grid-column-start: auto;
+    grid-column-end: auto;
+}
+
+.container2J{
+
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5,1fr);
+    box-shadow: 10px 10px 10px rgb(21, 58, 40);
+    background-image: url(een.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.CJ, .DJ, .EJ, .FJ, .GJ{
+    padding-left: 80px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(115, 115, 252);
+    padding: 10px;
+   
+}
+.HJ{
+grid-row: 1;
+grid-column: 7/8;
+padding-right: 15px;
+
+}
+.IJ{
+    grid-row: 1;
+    grid-column: 10;
+
+}
+
+.JJ{
+    grid-row: 1;
+    grid-column: 12;
+    margin-left: 10px;
+   
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+
+
+}
+.JJ:hover,.HJ:hover, .IJ:hover{
+
+    transform: scale(1.2);
+}
+
+
+.boxJ{
+    padding: 10px;
+    background-color: transparent;
+    grid-row: 2/4;
+    grid-column: 2/8;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 200;
+    color: white;
+    border: white 2px solid;
+    
+
+}
+.AJ{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+}
+
+.BJ{
+    grid-row: 1/2;
+    grid-column: 4/6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 10px;
+    word-spacing: 150px;
+    text-shadow: 3px 3px 5px #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: move 6s normal;
+    animation-delay: 2s;
+    color: white;
+}
+
+@keyframes move{
+    25%{
+        text-shadow: 0 0 30px rgb(93, 85, 87);
+        transform: translateX(-150px);
+    }
+ 
+    50%{
+        text-shadow: 0 0 30px rgb(99, 90, 90);
+        transform: translateY(75px);
+    }
+ 
+    75%{
+        text-shadow: 0 0 30px rgb(105, 95, 95); 
+        transform: translateX(100px);
+    }
+ 
+    100%{
+        text-shadow: 0 0 30px rgb(110, 100, 100);
+    }  
+}
+      
+.CJ{
+    color:  rgb(115, 115, 252);
+    grid-row: 3;
+    grid-column: 8/9;
+}
+.DJ{
+
+    grid-row: 3;
+    grid-column: 9/10;
+}
+
+.EJ{
+
+    grid-row: 3;
+    grid-column: 10/11;
+    padding-left: 30px;
+}
+.FJ{
+
+    grid-row: 3;
+    grid-column: 11/12;
+    padding-left: 30px;
+}
+.GJ{
+
+    grid-row: 3;
+        grid-column: 12;
+        padding-left: 30px;
+}
+.headJ{
+
+    color:  rgb(244, 248, 246);;
+    grid-row: 1;
+    grid-column: 3/8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 15px;
+    text-shadow: 5px 5px 10px #000000;
+    text-decoration: none;
+    text-align: left;
+
+}
+.refJ{
+    height: 150px;
+    width: fit-content;
+    border: white 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    margin-left: 150px;
+    grid-column: 3/6;
+    grid-row: 5;
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container h2{
+    width: 50px;
+    color: white;
+}
+
+.container .CJ a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .DJ a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .EJ a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .FJ a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container .GJ a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+
+.CJ, .DJ, .EJ, .FJ, .GJ{
+    padding-left: 80px;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(115, 115, 252);
+    transition: transform 0.3s ease-in-out;
+} 
+
+.CJ:hover{
+    transform: scale(1.2);
+}
+
+.DJ:hover{
+    transform: scale(1.2);
+}
+
+.EJ:hover{
+    transform: scale(1.2);
+}
+
+.FJ:hover{
+    transform: scale(1.2);
+}
+
+.GJ:hover{
+    transform: scale(1.2);
+}
+
+.container1D{
+
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,105px);
+    grid-column-start: auto;
+    grid-column-end: auto;
+}
+
+.HD{
+grid-row: 1;
+grid-column: 8/9;
+
+}
+.ID{
+    grid-row: 1;
+    grid-column: 9/10;
+
+}
+.AD{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+}
+.BD{
+    grid-row: 1/2;
+    grid-column: 4/6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 10px;
+    word-spacing: 150px;
+    text-shadow: 3px 3px 5px #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    animation: moveD 6s normal;
+    animation-delay: 2s;
+    color: white;
+}
+@keyframes moveD{
+    25%{
+        text-shadow: 0 0 30px rgb(93, 85, 87);
+        transform: translateX(-250px);
+    }
+ 
+    50%{
+        text-shadow: 0 0 30px rgb(99, 90, 90);
+        transform: translateY(100px);
+    }
+ 
+    75%{
+        text-shadow: 0 0 30px rgb(105, 95, 95); 
+        transform: translateX(150px);
+    }
+ 
+    100%{
+        text-shadow: 0 0 30px rgb(110, 100, 100);
+    }  
+}
+.CD{
+
+    grid-row: 2;
+        grid-column: 7;
+}
+.DD{
+
+    grid-row: 2;
+        grid-column: 8/9;
+}
+
+.ED{
+
+    grid-row: 2;
+        grid-column: 9/10;
+}
+.FD{
+
+    grid-row: 2;
+        grid-column: 10/11;
+}
+.GD{
+
+    grid-row: 2;
+        grid-column: 11/12;
+        padding-left: 30px;
+}
+.containerD{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(13,105px);
+    grid-column-start: auto;
+    grid-column-end: auto;
+    background-color:black;
+    
+    
+}
+
+
+#HeadingD{
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    
+    
+}
+#image1D{
+    height: 100px;
+    float: left;
+}
+#div2D{
+    grid-column: 1/13;
+    grid-row: 1;
+}
+#div3D{
+    grid-column: 1/7;
+    grid-row: 2/7;
+    border-right: dashed whitesmoke 1px;
+    
+    
+}
+#para1D{
+    line-height: 1cm;
+    color: whitesmoke;
+    font-size: large;
+    
+}
+#div4D{
+    grid-row: 7/8;
+    grid-column: 1/7;
+}
+.h2classD{
+    text-align: center;
+    text-decoration-line: underline;
+    color: whitesmoke;
+}
+#div6D{
+    grid-column: 4/6;
+    grid-row: 8/10;
+    background-image: linear-gradient(orange, yellow, red);
+    border: 3px solid white;
+    border-radius: 30%;
+}
+#div7D{
+    grid-column: 1/3;
+    grid-row: 8/10;
+    background-image: linear-gradient(orange, yellow, red);
+    border: 3px solid white;
+    border-radius: 30%;
+}
+.mylistD{
+  padding-top: 25px;
+  
+}
+#div9D, #div10D, #div11D, #div12D{
+    
+grid-row: 10/12;
+}
+#div8D{
+    grid-row: 10/12;
+}
+#image2D{
+    height: 200px;
+    width: auto;
+}
+#div5D{
+    grid-column: 7/13;
+    grid-row: 2/8;
+    
+    background-image: url(Images/div3gif.gif);
+}
+#div8D{
+   grid-row: 10/14;
+   grid-column: 1/7;
+   border-right: dashed whitesmoke 1px;
+
+}
+#para2D{
+    line-height: 1cm;
+    color: whitesmoke;
+    font-size: large;
+}
+#div9D{
+    grid-column: 1/7;
+    grid-row: 7/10;
+    border-right: dashed whitesmoke 1px;
+}
+#div10D{
+    grid-column: 7/13;
+    grid-row: 8/12;
+}
+#icon1D{
+    list-style-type: none;
+   background-image: url(Images/200w.webp);
+   background-size: 32px 32px;
+   background-repeat: no-repeat;
+   padding-left: 40px;
+   font-size: x-large;
+   color: whitesmoke;
+   line-height: 1cm;
+}
+#icon2D{
+    list-style-type: none;
+    background-image: url(Images/heart.webp);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: x-large;
+    color: whitesmoke;
+    line-height: 1cm;
+ }
+ #icon3D{
+    list-style-type: none;
+    background-image: url(Images/education.webp);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: x-large;
+    color: whitesmoke;
+    line-height: 1cm;
+ }
+ #icon4D{
+    list-style-type: none;
+    background-image: url(Images/media.webp);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: x-large;
+    color: whitesmoke;
+    line-height: 1cm;
+ }
+ #icon5D{
+    list-style-type: none;
+    background-image: url(Images/travel.webp);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: x-large;
+    color: whitesmoke;
+    line-height: 1cm;
+ }
+ #icon6D{
+    list-style-type: none;
+    background-image: url(Images/realestate.webp);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: x-large;
+    color: whitesmoke;
+    line-height: 1cm;
+    
+    
+ }
+ #icon7D{
+    list-style-type: none;
+    background-image: url(Images/logistics.webp);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: x-large;
+    color: whitesmoke;
+    line-height: 1cm;
+    
+ }
+ .mylist2D{
+    line-height: 1cm;
+    
+    
+ }
+
+ .CD, .DD, .ED, .FD, .GD{
+    padding-left: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(115, 115, 252);
+    transition: transform 0.3s ease-in-out;
+} 
+
+.container1D .CD a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container1D .DD a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container1D .ED a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container1D .FD a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.container1D .GD a{
+    text-decoration: none;
+    color: rgb(115, 115, 252);
+}
+
+.CD:hover{
+    transform: scale(1.2);
+}
+
+.DD:hover{
+    transform: scale(1.2);
+}
+
+.ED:hover{
+    transform: scale(1.2);
+}
+
+.FD:hover{
+    transform: scale(1.2);
+}
+
+.GD:hover{
+    transform: scale(1.2);
+}
